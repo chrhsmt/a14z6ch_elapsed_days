@@ -1,5 +1,13 @@
 require "elapsed_days/version"
+require 'active_support'
+require 'active_support/core_ext'
 
 module ElapsedDays
-  # Your code goes here...
+  class Base
+    class << self 
+      def calc
+        puts "yes"
+      end
+    end
+  end
 end
