@@ -1,4 +1,4 @@
 #!/usr/bin/env ruby
 
 require 'elapsed_days'
-ElapsedDays::Base.calc
+ElapsedDays::Base.calc(ARGV[0])
