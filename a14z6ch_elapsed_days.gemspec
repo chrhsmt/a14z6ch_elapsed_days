@@ -8,9 +8,9 @@ Gem::Specification.new do |spec|
   spec.version       = ElapsedDays::VERSION
   spec.authors       = ["Chihiro Hashimoto"]
   spec.email         = ["a14z6ch@aiit.ac.jp"]
-  spec.summary       = %q{To calculate days from birthday.}
-  spec.description   = %q{To calculate days from birthday.}
-  spec.homepage      = ""
+  spec.summary       = %q{To calculate days from given date.}
+  spec.description   = %q{To calculate days from given date.}
+  spec.homepage      = "https://github.com/chrhsmt/a14z6ch_elapsed_days"
   spec.license       = "MIT"
 
   spec.files         = `git ls-files -z`.split("\x0")
