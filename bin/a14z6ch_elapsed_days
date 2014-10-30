@@ -1,10 +1,13 @@
 #!/usr/bin/env ruby
 
+require 'active_support'
+require 'active_support/core_ext'
+require 'active_support/number_helper'
 require 'a14z6ch_elapsed_days'
 require 'colorize'
 
 if ARGV[0].nil?
   puts "please type valid date for arguments.".colorize(:light_blue)
 else
-  A14z6chElapsedDays::Base.calc(ARGV[0])
+  puts "#{A14z6chElapsedDays::Base.calc(ARGV[0]).to_s(:delimited)} days elapsed from the day \"#{ARGV[0]}\"".colorize(:light_magenta)
 end
