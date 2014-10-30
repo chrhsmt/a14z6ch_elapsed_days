@@ -21,7 +21,7 @@ module A14z6chElapsedDays
       def calc(date)
         begin
           elapsed_seconds = Time.now - Time.parse(date)
-          puts "#{(elapsed_seconds / 60 / 60 / 24).to_i.to_s(:delimited)} days elapsed from the day \"#{date}\""
+          puts "#{(elapsed_seconds / 60 / 60 / 24).to_i.to_s(:delimited)} days elapsed from the day \"#{date}\"".colorize(:light_magenta)
         rescue ArgumentError => e
 	  puts "given date is not valid.".colorize(:light_blue)
 	end
