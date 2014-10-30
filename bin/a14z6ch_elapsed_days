@@ -1,0 +1,4 @@
+#!/usr/bin/env ruby
+
+require 'a14z6ch_elapsed_days'
+A14z6chElapsedDays::Base.calc(ARGV[0])

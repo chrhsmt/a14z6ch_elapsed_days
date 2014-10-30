@@ -1,7 +1,7 @@
 # coding: utf-8
 lib = File.expand_path('../lib', __FILE__)
 $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
-require 'elapsed_days/version'
+require 'a14z6ch_elapsed_days/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "elapsed_days"
