@@ -4,7 +4,7 @@ $LOAD_PATH.unshift(lib) unless $LOAD_PATH.include?(lib)
 require 'a14z6ch_elapsed_days/version'
 
 Gem::Specification.new do |spec|
-  spec.name          = "elapsed_days"
+  spec.name          = "a14z6ch_elapsed_days"
   spec.version       = ElapsedDays::VERSION
   spec.authors       = ["Chihiro Hashimoto"]
   spec.email         = ["a14z6ch@aiit.ac.jp"]
