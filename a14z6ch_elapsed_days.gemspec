@@ -5,7 +5,7 @@ require 'a14z6ch_elapsed_days/version'
 
 Gem::Specification.new do |spec|
   spec.name          = "a14z6ch_elapsed_days"
-  spec.version       = ElapsedDays::VERSION
+  spec.version       = A14z6chElapsedDays::VERSION
   spec.authors       = ["Chihiro Hashimoto"]
   spec.email         = ["a14z6ch@aiit.ac.jp"]
   spec.summary       = %q{To calculate days from given date.}

@@ -2,4 +2,4 @@
 
 require 'a14z6ch_elapsed_days'
 
-A14z6chElapsedDays.start(ARGV)
+A14z6chElapsedDays::Cli.start(ARGV)
